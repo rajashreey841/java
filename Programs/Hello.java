@@ -4,7 +4,7 @@ class Hello
     {
         int x = 5;
         int y =10;
-        boolean result = x>y;
+        boolean result = x==y;  // equal to operator
         System.out.println(result) ;
            }
 }
