@@ -3,8 +3,8 @@ class Hello
     public static void main (String[] args)
     {
         int x = 5;
-        float y = 3.14f;
-        float result= ++y;
+        int y =10;
+        boolean result = x>y;
         System.out.println(result) ;
            }
 }
