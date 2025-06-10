@@ -2,11 +2,13 @@ class Hello
 {
     public static void main (String[] args)
     {
-        int x = 45;
-        if (x>10)
+        int x = 5;
+        int y = 10;
+        if (x>y)
         
-            System.out.println("Hello");
+            System.out.println(x);
         
-        //System.out.println(result) ;
+        else
+            System.out.println(y) ;
     }
 }
