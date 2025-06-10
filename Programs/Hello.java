@@ -4,7 +4,9 @@ class Hello
     {
         int x = 5;
         int y =10;
-        boolean result = x==y;  // equal to operator
+        double a = 5.9;
+        double b = 5.9;
+        boolean result = x<y ||a==b && x>1;	// logical operators
         System.out.println(result) ;
            }
 }
